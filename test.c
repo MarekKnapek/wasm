@@ -14,7 +14,7 @@ void my_memcpy(char* const dst, char const* const src, int const len)
 
 EMSCRIPTEN_KEEPALIVE int test(int const a, int const b)
 {
-	#define msg "performing the \"test\" computation"
+	#define msg "Performing the 'test' computation."
 
 	char stack_buf[64];
 	int c;
